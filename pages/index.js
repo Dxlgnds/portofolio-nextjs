@@ -68,7 +68,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
-            <Image src={design} width={100} height={100} className="ml-28 lg:ml-14" />
+            <Image src={design} width={100} height={100} className="mx-auto" />
             <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2">I have some experience about design.</p>
             <h4 className="py-4 text-teal-600">Design tools I use</h4>
