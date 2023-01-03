@@ -80,7 +80,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
-            <Image src={code} width={100} height={100} className="ml-28 lg:ml-14" />
+            <Image src={code} width={100} height={100} className="mx-auto" />
             <h3 className="text-lg font-medium pt-8 pb-2">Coding skills</h3>
             <p className="py-2">I also learn front end language.</p>
             <h4 className="py-4 text-teal-600">Front end skills</h4>
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image src={consulting} width={100} height={100} className="ml-28 lg:ml-14" />
+            <Image src={consulting} width={100} height={100} className="mx-auto" />
             <h3 className="text-lg font-medium pt-8 pb-2">Lets Be Friends</h3>
             <p className="py-2">Lets talk with me in social media.</p>
             <h4 className="py-4 text-teal-600">My social media</h4>
