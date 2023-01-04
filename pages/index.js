@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="text-center">
+        <section>
           <div>
           <h3 className="text-3xl py-1 dark:text-white">My Journey</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I start to learn <span className="text-teal-500">front end</span> language like HTML , CSS , JS and some javascript frameworks (React JS, Next JS , Node JS) <span className="text-teal-500">Since 2020</span>. And untill now i'm still learning more Programming language and frameworks ! </p>
