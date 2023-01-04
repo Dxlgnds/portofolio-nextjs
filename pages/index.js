@@ -3,15 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillFacebook, AiFillGithub, AiFillInstagram} from "react-icons/ai";
-import dinan from '../public/dev-ed-wave.png';
+import dinan from '../public/avatar.jpg';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import web1 from '../public/web1.png';
-import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
-import web4 from '../public/web4.png';
-import web5 from '../public/web5.png';
+import web1 from '../public/webnew1.jpg';
+import web2 from '../public/webnew2.jpg';
+import web3 from '../public/webnew3.jpg';
+import web4 from '../public/webnew4.jpg';
 import Link from 'next/link'
 import {useState} from 'react';
 
@@ -43,21 +42,21 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600 dark:text-gray-400">
 
-          <a target="_blank" href="https://facebook.com" rel="noopener noreferrer"><AiFillFacebook/></a>
-          <a target="_blank" href="https://github.com" rel="noopener noreferrer"><AiFillGithub/></a>
-          <a target="_blank" href="https://instagram.com" rel="noopener noreferrer"><AiFillInstagram/></a>
+          <a target="_blank" href="https://facebook.com/muhammad.dinan.161" rel="noopener noreferrer"><AiFillFacebook/></a>
+          <a target="_blank" href="https://github.com/dxlgnds" rel="noopener noreferrer"><AiFillGithub/></a>
+          <a target="_blank" href="https://instagram.com/dxryzzz" rel="noopener noreferrer"><AiFillInstagram/></a>
 
 
           </div>
 
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
 
           <Image src={dinan} layout="fill" objectFit="cover"/>
 
           </div>
         </section>
 
-        <section>
+        <section className="text-center">
           <div>
           <h3 className="text-3xl py-1 dark:text-white">My Journey</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I start to learn <span className="text-teal-500">front end</span> language like HTML , CSS , JS and some javascript frameworks (React JS, Next JS , Node JS) <span className="text-teal-500">Since 2020</span>. And untill now i'm still learning more Programming language and frameworks ! </p>
@@ -68,7 +67,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
-            <Image src={design} width={100} height={100} className="ml-28 lg:ml-14" />
+            <Image src={design} width={100} height={100} className="mx-auto" />
             <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2">I have some experience about design.</p>
             <h4 className="py-4 text-teal-600">Design tools I use</h4>
@@ -80,7 +79,7 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
-            <Image src={code} width={100} height={100} className="ml-28 lg:ml-14" />
+            <Image src={code} width={100} height={100} className="mx-auto" />
             <h3 className="text-lg font-medium pt-8 pb-2">Coding skills</h3>
             <p className="py-2">I also learn front end language.</p>
             <h4 className="py-4 text-teal-600">Front end skills</h4>
@@ -92,7 +91,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <Image src={consulting} width={100} height={100} className="ml-28 lg:ml-14" />
+            <Image src={consulting} width={100} height={100} className="mx-auto" />
             <h3 className="text-lg font-medium pt-8 pb-2">Lets Be Friends</h3>
             <p className="py-2">Lets talk with me in social media.</p>
             <h4 className="py-4 text-teal-600">My social media</h4>
