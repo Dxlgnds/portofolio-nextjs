@@ -95,9 +95,10 @@ export default function Home() {
             <h3 className="text-lg font-medium pt-8 pb-2">Lets Be Friends</h3>
             <p className="py-2">Lets talk with me in social media.</p>
             <h4 className="py-4 text-teal-600">My social media</h4>
-            <p className="text-gray-800 py-1">Facebook : Dinan Legends</p>
-            <p className="text-gray-800 py-1">Instagram : Dxryzzz</p>
-            <p className="text-gray-800 py-1">Twitter : Dinan Legends</p>
+            <p className="text-gray-800 py-1">Facebook : Dinan Valientt</p>
+            <p className="text-gray-800 py-1">Instagram : mhmddinan_
+  </p>
+            <p className="text-gray-800 py-1">Threads : mhmddinan_</p>
 
             </div>
 
