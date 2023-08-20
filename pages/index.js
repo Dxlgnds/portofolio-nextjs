@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 scroll-smooth">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="text-black text-2xl font-burtons dark:text-white">dinannn</h1>
@@ -114,6 +114,8 @@ export default function Home() {
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I really like to coding because coding is fun , but sometimes it makes me confused.</p>
 
         </div>
+
+        <h3 className="text-3xl text-center dark:text-white">Web Projects</h3>
 
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
