@@ -27,7 +27,7 @@ export default function Home() {
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="text-black text-2xl font-burtons">dinannn</h1>
+            <h1 className="text-gray-200 text-2xl font-burtons">dinannn</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl" /></li>
               <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 px-2 rounded-md ml-8 font-medium" href="#">Resume</a></li>
@@ -68,7 +68,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
             <Image src={design} width={100} height={100} className="mx-auto" />
-            <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+            <h3 className="text-gray-200 text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2">I have some experience about design.</p>
             <h4 className="py-4 text-teal-600">Design tools I use</h4>
             <p className="text-gray-800 py-1">Photoshop</p>
