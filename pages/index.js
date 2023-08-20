@@ -115,7 +115,7 @@ export default function Home() {
 
         </div>
 
-        <h3 className="text-3xl text-center py-1 dark:text-white"  id="projects">Web Projects</h3>
+        <h3 className="text-black text-3xl text-center py-1 dark:text-white"  id="projects">Web Projects</h3>
 
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
