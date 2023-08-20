@@ -68,8 +68,8 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
             <Image src={design} width={100} height={100} className="mx-auto" />
-            <h3 className="text-gray-200 text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
-            <p className="py-2">I have some experience about design.</p>
+            <h3 className="text-black text-lg font-medium pt-8 pb-2">About Designs</h3>
+            <p className="text-gray-600 py-2">I have some experience about design.</p>
             <h4 className="py-4 text-teal-600">Design tools I use</h4>
             <p className="text-gray-800 py-1">Photoshop</p>
             <p className="text-gray-800 py-1">Illustrator</p>
@@ -80,8 +80,8 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
 
             <Image src={code} width={100} height={100} className="mx-auto" />
-            <h3 className="text-lg font-medium pt-8 pb-2">Coding skills</h3>
-            <p className="py-2">I also learn front end language.</p>
+            <h3 className="text-black text-lg font-medium pt-8 pb-2">Coding skills</h3>
+            <p className="text-gray-600 py-2">I also learn front end language.</p>
             <h4 className="py-4 text-teal-600">Front end skills</h4>
             <p className="text-gray-800 py-1">HTML</p>
             <p className="text-gray-800 py-1">CSS</p>
@@ -92,8 +92,8 @@ export default function Home() {
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
             <Image src={consulting} width={100} height={100} className="mx-auto" />
-            <h3 className="text-lg font-medium pt-8 pb-2">Lets Be Friends</h3>
-            <p className="py-2">Lets talk with me in social media.</p>
+            <h3 className="text-black text-lg font-medium pt-8 pb-2">Lets Be Friends</h3>
+            <p className="text-gray-600 py-2">Lets talk with me in social media.</p>
             <h4 className="py-4 text-teal-600">My social media</h4>
             <p className="text-gray-800 py-1">Facebook : Dinan Valientt</p>
             <p className="text-gray-800 py-1">Instagram : mhmddinan_
