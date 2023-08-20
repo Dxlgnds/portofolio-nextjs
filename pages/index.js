@@ -30,7 +30,7 @@ export default function Home() {
             <h1 className="text-black text-2xl font-burtons dark:text-white">dinannn</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="fill-black cursor-pointer text-2xl dark:fill-white" /></li>
-              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 px-2 rounded-md ml-8 font-medium" href="#">Resume</a></li>
+              <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 px-2 rounded-md ml-8 font-medium" href="#projects">Resume</a></li>
             </ul>
           </nav>
           <div className="text-center p-10">
@@ -115,13 +115,13 @@ export default function Home() {
 
         </div>
 
-        <h3 className="text-3xl text-center dark:text-white">Web Projects</h3>
+        <h3 className="text-3xl text-center py-1 dark:text-white">Web Projects</h3>
 
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
         <div className="basis-1/3 flex-1">
 
-        <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+        <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" id="projects"/>
 
         </div>
 
