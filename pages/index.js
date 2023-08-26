@@ -36,8 +36,8 @@ export default function Home() {
           <div className="text-center p-10">
 
           <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Muhammad Dinan</h2>
-          <h3 className="text-black text-2xl py-2 dark:text-white md:text-3xl">Students and developer</h3>
-          <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto">Lazy students try to understanding Programming Language.</p>
+          <h3 className="text-black text-2xl py-2 dark:text-white md:text-3xl">Junior Web Developer</h3>
+          <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto">Lorem Ipsum enthusiast.</p>
 
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600 dark:text-gray-400">
@@ -60,7 +60,7 @@ export default function Home() {
           <div>
           <h3 className="text-3xl py-1 dark:text-white">My Journey</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I start to learn <span className="text-teal-500">front end</span> language like HTML , CSS , JS and some javascript frameworks (React JS, Next JS , Node JS) <span className="text-teal-500">Since 2020</span>. And untill now i'm still learning more Programming language and frameworks ! </p>
-          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I really like to coding because coding is fun , but sometimes it makes me confused.</p>
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I like playing Genshin Impact ! </p>
           </div>
 
             <div className="lg:flex gap-10">
@@ -69,11 +69,11 @@ export default function Home() {
 
             <Image src={design} width={100} height={100} className="mx-auto" />
             <h3 className="text-black text-lg font-medium pt-8 pb-2">About Designs</h3>
-            <p className="text-gray-600 py-2">I have some experience about design.</p>
+            <p className="text-gray-600 py-2">I have a little bit experience about design.</p>
             <h4 className="py-4 text-teal-600">Design tools I use</h4>
             <p className="text-gray-800 py-1">Photoshop</p>
             <p className="text-gray-800 py-1">Illustrator</p>
-            <p className="text-gray-800 py-1">Canva</p>
+            <p className="text-gray-800 py-1">Corel Draw</p>
 
             </div>
 
@@ -111,7 +111,7 @@ export default function Home() {
 
         <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I start to learn <span className="text-teal-500">front end</span> language like HTML , CSS , JS and some javascript frameworks (React JS, Next JS , Node JS) <span className="text-teal-500">Since 2020</span>. And untill now i'm still learning more Programming language and frameworks ! </p>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I really like to coding because coding is fun , but sometimes it makes me confused.</p>
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I Like playing Genshin Impact !</p>
 
         </div>
 
