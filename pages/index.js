@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillFacebook, AiFillGithub, AiFillInstagram} from "react-icons/ai";
-import dinan from '../public/avatar.jpg';
+import avatar from '../public/focalors.jpg';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
 
-          <Image src={dinan} layout="fill" objectFit="cover"/>
+          <Image src={avatar} layout="fill" objectFit="cover"/>
 
           </div>
         </section>
