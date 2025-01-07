@@ -27,7 +27,7 @@ export default function Home() {
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 scroll-smooth">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="text-black text-2xl font-burtons dark:text-white">dxryz</h1>
+            <h1 className="text-black text-2xl font-burtons dark:text-white">dinannn</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="fill-black cursor-pointer text-2xl dark:fill-white" /></li>
               <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 px-2 rounded-md ml-8 font-medium" href="#projects">Projects</a></li>
@@ -37,7 +37,7 @@ export default function Home() {
 
           <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Muhammad Dinan</h2>
           <h3 className="text-black text-2xl py-2 dark:text-white md:text-3xl">Students & Web Developer</h3>
-          <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto">Aku mah masih pemula, Ajarin dong puh sepuh.</p>
+          <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto">Kotlin / Javascript Enthuasiast.</p>
 
           </div>
           <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600 dark:text-gray-400">
