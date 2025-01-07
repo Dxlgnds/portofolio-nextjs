@@ -44,7 +44,7 @@ export default function Home() {
 
           <a target="_blank" href="https://facebook.com/muhammad.dinan.161" rel="noopener noreferrer"><AiFillFacebook/></a>
           <a target="_blank" href="https://github.com/dxlgnds" rel="noopener noreferrer"><AiFillGithub/></a>
-          <a target="_blank" href="https://instagram.com/dxryzzz" rel="noopener noreferrer"><AiFillInstagram/></a>
+          <a target="_blank" href="https://instagram.com/mhmddinan_" rel="noopener noreferrer"><AiFillInstagram/></a>
 
 
           </div>
