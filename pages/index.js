@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
 
-          <Image src={avatar} layout="fill" objectFit="cover"/>
+          <Image src={avatar} />
 
           </div>
         </section>
@@ -120,25 +120,25 @@ export default function Home() {
 
         <div className="basis-1/3 flex-1">
 
-        <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+        <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
 
         </div>
 
         <div className="basis-1/3 flex-1">
 
-        <Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+        <Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
 
         </div>
 
         <div className="basis-1/3 flex-1">
 
-        <Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+        <Image src={web3} className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
 
         </div>
 
         <div className="basis-1/3 flex-1">
 
-        <Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+        <Image src={web4} className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
 
         </div>
 
